@@ -5,27 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/01f480e645.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div  class="header-div header-div1">
-                <input id="search" type="text">
-                <div><p>Other Stuff</p></div>
+                <div class="search-div"> 
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input id="search" type="text">
+                </div>
+                <div class="profile-div">
+                    <p><i class="fa-solid fa-bell fa-lg"></i></p>
+                    <div class="profile"></div>
+                    <p class="bold-font">Morgan Oakley</p>
+                </div>
             </div>
             <div class="header-div header-div2">
-                <div></div>
-                <div></div>
+                <div>
+                    <div class="profile"></div>
+                    <div class="flex-column">
+                        <p class="small-font bold-font">Hi there,</p>
+                        <p class="bold-font">Morgan Oakley (@morgan)</p>
+                    </div>
+                </div>
+                <div>
+                    <a class="btn" href="#">New</a>
+                    <a class="btn" href="#">Upload</a>
+                    <a class="btn" href="#">Share</a>
+                </div>
             </div>
         </div>
         <div class="nav">
+            <span>Dashboard</span>
             <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
+                <li><i class="fa-solid fa-house"></i>Home</li>
+                <li><i class="fa-solid fa-address-card"></i>Profile</li>
+                <li><i class="fa-solid fa-message"></i>Messages</li>
+                <li><i class="fa-solid fa-clock"></i>History</li>
+                <li><i class="fa-solid fa-note-sticky"></i>Tasks</li>
+                <li><i class="fa-solid fa-users-line"></i>Communities</li>
+            </ul>
+            <ul>
+                <li><i class="fa-solid fa-gear"></i>Settings</li>
+                <li><i class="fa-solid fa-circle-question"></i>Support</li>
+                <li><i class="fa-solid fa-shield"></i>Privacy</li>
             </ul>
         </div>
         <div class="main">

@@ -82,6 +82,7 @@
     display: grid;
     grid-template-columns: 3fr 1fr; 
     background-color: rgba(226,232,240,255);
+    padding: 15px;
 }
 .projects {
     display: grid;
